@@ -8,7 +8,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    //when row component loads, make a request to TMDB
     async function fetchData() {
       const request = await axios.get(fetchUrl);
       setMovies(request.data.results);
