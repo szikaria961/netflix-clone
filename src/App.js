@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       {/* Nav Bar */}
       <Banner />
-      <h1>Netflix Clone Front-end</h1>
       <Row title="Netflix Originals"
         fetchUrl={requests.fetchNetflixOriginals}
         isLargeRow
