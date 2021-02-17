@@ -43,8 +43,6 @@ npm start
 
 View development app at `http://localhost:3000`
 
-## Deployment
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
